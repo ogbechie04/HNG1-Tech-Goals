@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Laura Ogbechie" />
+    <link rel="stylesheet" href="style.css">
+    <title>Tech Goals</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1 data-testid="slackDisplayName">Laura Ogbechie</h1>
+        <img
+          src="./assets/dp.jpg"
+          alt="Slack Profile Picture"
+          data-testid="slackProfilePicture"
+          width="1075"
+          height="1433"
+        />
+      </header>
+
+      <main>
+        <section>
+          <h2>Goals for the Next 2 Years</h2>
+          <p>
+            Within the next two years, my goal would be to have fully
+            trnasitioned fully into the tech industry to begin my journey as not
+            just a frontend developer but as a software engineer. Within the
+            next two years, I should've gained experience as a junior developer
+            and be looking to move to the mid level.
+          </p>
+        </section>
+
+        <section>
+          <p>
+            Current Day: <span id="current-day" data-testid="currentDay"></span>
+          </p>
+          <p>
+            Current Time:
+            <span id="timeUTC" data-testid="currentTimeUTC"></span>
+          </p>
+          <p data-testid="slackEmail">Email: ogbechielaura04@gmail.com</p>
+        </section>
+
+        <section class="links">
+          <ul>
+            <li><a href="http://hng.tech/learn" data-testid="hngLink" target="_blank">HNG</a></li>
+            <li><a href="http://keyword.dog/" data-testid="keywordLink" target="_blank">Keyword Dog</a></li>
+            <li><a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink" target="_blank">Scrap Any Website</a></li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
